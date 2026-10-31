@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Tarea 2 modificacion de los curriculums"
+  />s
+  <title>Tarea-2</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+            <!-- Controles de Radio Ocultos para Navegación Pura en CSS (Sin JavaScript) -->
+    <input type="radio" id="pestaña-opcion-1" name="grupo-menu" class="control-pestaña" checked>
+    <input type="radio" id="pestaña-opcion-2" name="grupo-menu" class="control-pestaña">
+    <input type="radio" id="pestaña-opcion-3" name="grupo-menu" class="control-pestaña">
+    <header class="header">
+      <h1>Tarea-2</h1>
+      <p>Tarea_2 modificación de los curriculums de la tarea 1</p>
+    </header>
+      <nav class="nav" aria-label="Navegación principal">
+            <label for="pestaña-opcion-1" class="enlace-opcion">Curriculum 1</label>
+            <label for="pestaña-opcion-2" class="enlace-opcion">Curriculum 2</label>
+            <label for="pestaña-opcion-3" class="enlace-opcion">Curriculum 3</label>
+    </nav>
+    <aside class="sidebar sidebar-left"><!--modificar la barra lateral izquierda-->
+        <img src="../img/foto1.jpg" alt="Foto perfil 1" class="imagen-circular img-1">
+        <img src="../img/foto2.jpg" alt="Foto perfil 2" class="imagen-circular img-2">
+        <img src="../img/foto3.jpg" alt="Foto perfil 3" class="imagen-circular img-3">
+    </aside>
+
+    <main class="main"><!-- aqui esta el contenido principal y es hermano de los input -->
+        <!--si aqui pusieramos los input no se ejecutrian por que no estan relacionados -->
+        <div id="contenido-opc1" class="contenedor-opc">
+        <article>
+            <h3> Curriculum 1</h3>
+             <h2>Diego Rivera</h2>
+                <p>Estudiante de Ingeniería</p>
+                <p>Correo: riveraferiadiego1@gmail.com</p>
+                <p>Teléfono: 55 1234 5678</p>
+                    <h3>Educación</h3>
+                <p>Ingeniería en Telemática - IPN</p>
+                <h3>Habilidades</h3>
+                <p>Ingles interedio</p>
+      </article>
+        </div>
+        <div id="contenido-opc2" class="contenedor-opc">
+            <h3> Curriculum 2</h3> 
+        <article>
+            <h2>Carlos Mendoza</h2>
+            <p>Desarrollador Web Junior</p>
+            <p>Correo: carlos@gmail.com</p>
+            <p>Teléfono: 55 8765 4321</p>
+            <h3>Educación</h3>
+            <p>Ingeniería en Computación - IPN</p>
+            <h3>Habilidades</h3>
+            <p>HTML, CSS, JavaScript básico</p>
+      </article>
+        </div>
+        <div id="contenido-opc3" class="contenedor-opc">
+            <h3>Curriculum 3</h3>
+        <article>
+            <h2>Ana López</h2>
+        <p>Diseñadora de Interfaces</p>
+        <p>Correo: ana@gmail.com</p>
+        <p>Teléfono: 55 9988 7766</p>
+        <h3>Educación</h3>
+        <p>Licenciatura en Diseño Digital - IPN</p>
+        <h3>Habilidades</h3>
+        <p>Figma, Maquetación Web, CSS Grid</p>
+      </article>
+    </div>
+        
+    </main>
+
+    <aside class="sidebar sidebar-right">
+      <h2>Información adicional</h2>
+      <p>Enlaces relacionados, anuncios o widgets.</p>
+    </aside>
+
+    <footer class="footer" id="contacto">
+      <p>&copy; 2026 Mi sitio web. Rivera Feria Diego 2TV4.</p>
+    </footer>
+  </div>
+</body>
+</html>
